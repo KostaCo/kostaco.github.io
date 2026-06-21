@@ -654,6 +654,47 @@ body {
     font-weight: 100;
 }
 
+.materijali-link {
+    color: var(--accent-pink);
+    font-family: var(--font-mono);
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Osnovni izgled */
+.content {
+    max-width: 800px;
+    margin: 40px auto; /* Centriranje sadržaja */
+    padding: 0 20px;
+}
+
+.nav-back {
+    color: var(--accent-pink);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* Stil za fajl karticu */
+.file-card {
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid var(--accent-pink); /* Ili tvoja border boja */
+    color: var(--accent-pink);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.file-card:hover {
+    background: rgba(255, 0, 100, 0.1); /* Blagi efekat pri prelasku mišem */
+}
+
 @media (max-width: 992px) {
     .features-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 kolone na tabletima */
