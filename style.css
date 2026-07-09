@@ -700,6 +700,103 @@ body {
     padding-top: 20px;
 }
 
+
+/* 1. Popravka za uvodni tekst (Boja sa dugmeta za vrhunski kontrast) */
+
+
+/* 2. Popravka za podnaslov (Slanje monospace fonta u istoriju) */
+.hero-subtitle {
+  font-family: system-ui, -apple-system, sans-serif; /* Zameni sa tvojim glavnim fontom sajta */
+  color: #e2e8f0; 
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+/* 3. Popravka za opis (Dodavanje vazduha među redove) */
+.hero-desc {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #94a3b8; 
+  font-size: 1.15rem;
+  line-height: 1.7; /* Ključno za čitljivost */
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.predmeti-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.lista-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.lista-wrapper h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 59, 59, 0.2); /* Suptilna crvena linija ispod naziva faksa */
+  padding-bottom: 0.5rem;
+}
+
+.predmeti-lista-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.predmeti-lista-bullets li {
+  color: #94a3b8; /* Prijatna siva za čitanje */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+/* Custom crveni bullet point umesto obične tačkice */
+.predmeti-lista-bullets li::before {
+  content: "•";
+  color: #ff3b3b; /* Tvoja brendirana crvena */
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.predmeti-lista-bullets li strong {
+  color: #ffffff; /* Isticanje naziva celine belom bojom */
+  display: block; /* Spušta opis u novi red ispod naslova stavke radi bolje čitljivosti */
+  margin-bottom: 0.2rem;
+}
+
+.predmeti-lista-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.accent-underline {
+  /* Definiše običnu donju crtu */
+  text-decoration: underline;
+  
+  /* Kontroliše prozirnost (0.3 je 30% vidljivosti) */
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+  
+  /* Kontroliše debljinu linije (možeš staviti 1px ili 2px po želji) */
+  text-decoration-thickness: 1px;
+  
+  /* Pomera liniju malo naniže da ne seče donje delove slova poput 'p' i 'g' */
+  text-underline-offset: 4px; 
+}
+
 @media (max-width: 992px) {
     .features-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 kolone na tabletima */
