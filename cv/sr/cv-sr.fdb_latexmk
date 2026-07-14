@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1784052801.48917 "/home/kosta/Projects/personal-website/cv/sr/cv-sr.tex" "cv-sr.pdf" "cv-sr" 1784052801.90927 0
+["pdflatex"] 1784053132.34891 "/home/kosta/Projects/personal-website/cv/sr/cv-sr.tex" "cv-sr.pdf" "cv-sr" 1784053133.02514 0
   "/etc/texmf/web2c/texmf.cnf" 1779652215.19533 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kosta/Projects/personal-website/cv/sr/cv-sr.tex" 1784052801.33232 6801 a1ac1d8e059eba42bc359584a7d9c320 ""
+  "/home/kosta/Projects/personal-website/cv/sr/cv-sr.tex" 1784053132.11535 6784 30b1d7cd8877094bf1494cfe02d2b7c5 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -68,9 +68,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779652241 5541477 3118940318599480888143717dd32d64 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779652292 3643082 d718a7a87975810f30f4b2fa7adae9db ""
-  "cv-sr.aux" 1784052801.86334 300 b08816cd45ad50e94d0f154af0bb304f "pdflatex"
-  "cv-sr.out" 1784052801.79228 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv-sr.tex" 1784052801.33232 6801 a1ac1d8e059eba42bc359584a7d9c320 ""
+  "cv-sr.aux" 1784053132.98039 300 b08816cd45ad50e94d0f154af0bb304f "pdflatex"
+  "cv-sr.out" 1784053132.90567 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv-sr.tex" 1784053132.11535 6784 30b1d7cd8877094bf1494cfe02d2b7c5 ""
   (generated)
   "cv-sr.aux"
   "cv-sr.log"
