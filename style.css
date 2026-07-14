@@ -797,6 +797,28 @@ body {
   text-underline-offset: 4px; 
 }
 
+    .nav-cv-btn {
+        margin-left: 15px;
+        padding: 8px 16px;
+        border: 1px solid var(--accent-pink);
+        color: var(--accent-pink);
+        text-decoration: none;
+        font-family: var(--font-mono);
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+
+    .nav-cv-btn:hover {
+        background: var(--accent-pink);
+        color: white;
+    }
+
+    .nav-btn-container {
+    display: flex;       /* Ovo postavlja dugmad jedno pored drugog */
+    align-items: center; /* Ovo ih centrira po vertikali */
+    gap: 15px;           /* Razmak između GitHub i CV dugmeta */
+    }
+
 @media (max-width: 992px) {
     .features-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 kolone na tabletima */
@@ -836,6 +858,8 @@ body {
         padding: 8px 14px;
         font-size: 14px;
     }
+
+    
 
     .main-content {
         padding-top: 110px;
