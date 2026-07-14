@@ -1,0 +1,152 @@
+\documentclass[10pt, letterpaper]{article}
+
+% --- PAKETI I PODEŠAVANJA ---
+\usepackage[utf8]{inputenc}
+\usepackage[serbian]{babel} 
+\usepackage[margin=0.75in]{geometry} 
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% --- DEFINICIJA BOJA ---
+\definecolor{primary}{HTML}{111827}    
+\definecolor{accent}{HTML}{E11D48}     
+\definecolor{graytext}{HTML}{4B5563}   
+
+% --- HIPERLINKOVI ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+    pdftitle={CV - Kosta Čolović}
+}
+
+% --- TIPOGRAFIJA I STRUKTURA ---
+\urlstyle{same}
+\pagestyle{empty} 
+
+% Formatiranje naslova sekcija
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{primary}}
+  {}{0em}
+  {}
+    [\color{accent}\titlerule \vspace{-1.4ex}]
+
+\newcommand{\entry}[4]{
+  \vspace{1.5ex}
+  \noindent\textbf{#1} \hfill \textcolor{graytext}{\small #2} \\
+  \noindent\textit{#3} \hfill \textcolor{graytext}{\small #4}
+  \vspace{0.5ex}
+}
+
+% --- POČETAK DOKUMENTA ---
+\begin{document}
+
+% --- ZAGLAVLJE (Kontakt podaci) ---
+\begin{center}
+    {\Huge \bfseries \color{primary} Kosta Čolović} \\[1.5ex]
+    \textcolor{graytext}{
+        Beograd, Srbija \ $\bullet$ \ 
+        +381 64 235 2533 \ $\bullet$ \ 
+        \href{mailto:fkcolovic@gmail.com}{fkcolovic@gmail.com}
+    } \\[0.8ex]
+    \textcolor{graytext}{
+        \href{https://kostaco.github.io}{Veb-sajt} \ $\bullet$ \ 
+        \href{https://www.linkedin.com/in/kosta-\%C4\%8Dolovi\%C4\%87}{LinkedIn} \ $\bullet$ \ 
+        \href{https://github.com/kostaco}{GitHub}
+    }
+\end{center}
+
+\vspace{2ex}
+
+% --- OBRAZOVANJE ---
+\section*{Obrazovanje}
+\entry{O.Š. Borislav Pekić, Beograd}{2013 -- 2021.}{Osnovno obrazovanje}{Prosek: 5.0/5.0}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Titula đaka generacije
+    \item Vukova diploma
+    \item Brojne nagrade na takmičenjima iz matematike, fizike i biologije
+\end{itemize}
+
+\entry{Matematička gimnazija, Beograd}{2021 -- 2025.}{Srednje obrazovanje (učenici sa posebnim sposobnostima za matematiku)}{Prosek: 4.7/5.0}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Maturski rad: \textit{Nadgledano mašinsko učenje} (nagrada "Najbolji maturski rad iz računarstva i informatike")
+\end{itemize}
+
+\entry{Matematički fakultet, Univerzitet u Beogradu}{2025 -- Danas}{Student osnovnih akademskih studija, smer Informatika}{}
+
+
+\entry{Fizički fakultet, Univerzitet u Beogradu}{od oktobra 2026.}{Student osnovnih akademskih studija, smer Teorijska i eksperimentalna fizika}{}
+
+\vspace{2ex}
+
+% --- PROJEKTI ---
+\section*{Projekti}
+
+\entry{Ekonomija baze: Odabir optimalne osnove brojevnog sistema i primene}{2026.}{\href{https://kostaco.github.io/materijali/ekonomija-baze.pdf}{kostaco.github.io/materijali/ekonomija-baze.pdf}}{Istraživački rad}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Analiza efikasnosti reprezentacije podataka kroz asimptotski dokaz teorijske optimalnosti baze $e$.
+    \item Matematičko opravdanje praktične superiornosti ternarnog sistema (baza 3) uz prikaz primene u računarskoj arhitekturi i teoriji fraktala.
+\end{itemize}
+
+\entry{Contextual Timeline}{2026.}{\href{https://kostaco.github.io/contextual-timeline/}{kostaco.github.io/contextual-timeline}}{Web alat}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Interaktivna platforma za vizuelizaciju i mapiranje istorijskih, naučnih i filozofskih događaja.
+    \item Razvijeno korišćenjem modernih web tehnologija sa naglaskom na čist dizajn i intuitivan UI.
+\end{itemize}
+
+
+\entry{AI u astronomiji: Otkrivanje egzoplaneta i obrada svemirskih podataka}{2026.}{\href{https://kostaco.github.io/materijali/AIuAstronomiji.pdf}{kostaco.github.io/materijali/AIuAstronomiji.pdf}}{Istraživački rad}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Pregled i poređenje klasičnih algoritama mašinskog učenja i dubokih neuronskih mreža za detekciju egzoplaneta nad velikim astronomskim skupovima podataka.
+    \item Analiza primene AI modela u procesiranju svetlosnih krivih, spektroskopiji, visokokontrastnom snimanju i automatskom redukovanju šuma.
+\end{itemize}
+
+
+\entry{Nadgledano mašinsko učenje}{2024--2025.}{\href{https://kostaco.github.io/materijali/NadgledanoMasinskoUcenje.pdf}{kostaco.github.io/materijali/NadgledanoMasinskoUcenje.pdf}}{Istraživački rad}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Nagrada "Najbolji maturski rad iz računarstva i informatike"
+    \item Detaljan teorijski i praktični pregled algoritama nadgledanog učenja, sa fokusom na analizu regresije, stabala odlučivanja, SVM-a i neuronskih mreža.
+    \item Istorijska retrospektiva razvoja računarskih nauka i kritička analiza etičkih i filozofskih implikacija budućeg razvoja veštačke inteligencije.
+\end{itemize}
+
+\entry{AstroJump}{2023.}{\href{https://github.com/KostaCo/AstroJump}{github.com/KostaCo/AstroJump}}{Video-igra}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Razvoj 2D \textit{endless-runner} igre u Unity okruženju uz implementaciju simulacije fizike kretanja i mehanike skokova.
+    \item Proceduralno generisanje prepreka (asteroida) i arhitekturno upravljanje stanjima igre (\textit{Game Loop}) korišćenjem C\# skripti.
+\end{itemize}
+
+\vspace{2ex}
+
+% --- ISTRAŽIVAČKA INTERESOVANJA ---
+\section*{Istraživačka interesovanja}
+\vspace{1ex}
+\begin{itemize}[leftmargin=1.5em, topsep=0.8ex, itemsep=0.3ex]
+    \item \textbf{Mašinsko učenje i primene}
+    \item \textbf{Filozofija i veštačka inteligencija}
+    \item \textbf{Informatika u fizici i astronomiji}
+\end{itemize}
+
+\vspace{2ex}
+
+% --- VEŠTINE ---
+\section*{Tehničke veštine}
+\vspace{1ex}
+\begin{itemize}[leftmargin=1.5em, topsep=2ex, itemsep=0.3ex]
+    \item \textbf{Programski jezici:} C, C++, C\#, Python, ARM64 Assembly, x86-64 Assembly, JavaScript, MATLAB, Unity
+    \item \textbf{Operativni sistemi i alati:} Linux, Git, \LaTeX, HTML, CSS
+    \item \textbf{Strani jezici:} Srpski (maternji), Engleski (napredni nivo), Nemački (osnovni nivo), Latinski (osnovni nivo)
+\end{itemize}
+
+\vspace{2ex}
+
+% --- ISKUSTVO ---
+\section*{Radno iskustvo}
+\entry{Servisiranje i optimizacija računarskih sistema}{2022--2025.}{Samostalni tehnički projekti i servis}{}
+\begin{itemize}[leftmargin=1.5em, topsep=0.2ex, itemsep=0.2ex]
+    \item Dijagnostika hardverskih kvarova, projektovanje i sklapanje namenskih radnih stanica, uz uspešno rešavanje softverskih konflikata na Linux i Windows platformama.
+    \item Održavanje integriteta podataka pri migracijama sistema, konfiguracija sistemskog softvera i pružanje tehničke podrške za lokalne klijente tokom srednjoškolskog obrazovanja.
+\end{itemize}
+
+\end{document}
