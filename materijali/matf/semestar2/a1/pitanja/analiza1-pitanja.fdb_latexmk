@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1783541158.60084 "/home/kosta/MATF/semestar2/a1/pitanja/analiza1-pitanja.tex" "analiza1-pitanja.pdf" "analiza1-pitanja" 1783541159.43412 0
+["pdflatex"] 1785517463.72162 "/home/kosta/Projects/kostaco.github.io/materijali/matf/semestar2/a1/pitanja/analiza1-pitanja.tex" "analiza1-pitanja.pdf" "analiza1-pitanja" 1785517464.58826 0
   "/etc/texmf/web2c/texmf.cnf" 1779652215.19533 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kosta/MATF/semestar2/a1/pitanja/analiza1-pitanja.tex" 1783541157.49261 138154 fc7ac3961f9535bfa24f5e0efdde6980 ""
+  "/home/kosta/Projects/kostaco.github.io/materijali/matf/semestar2/a1/pitanja/analiza1-pitanja.tex" 1785517449.41392 138154 86b4df230d3f4ebe4a3c2a1643ac8ee2 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm" 1136768653 3072 ccae1a240ab272417e4399fe942df546 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -120,11 +120,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779652241 5541477 3118940318599480888143717dd32d64 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779652292 3643082 d718a7a87975810f30f4b2fa7adae9db ""
-  "analiza1-pitanja.aux" 1783541159.35175 9921 bf56ebb6d89699bc4e29083885d34dcc "pdflatex"
-  "analiza1-pitanja.out" 1783541159.35475 13457 ae2d58beefb99e4f631395a0557d5f0c "pdflatex"
-  "analiza1-pitanja.tex" 1783541157.49261 138154 fc7ac3961f9535bfa24f5e0efdde6980 ""
-  "analiza1-pitanja.toc" 1783541159.35575 5602 d12e37a58c96552ef7742d7ec301d517 "pdflatex"
-  "slike/1-5.png" 1783438571.44391 6984 7926b1e58166811cd5ba6647ae6f420f ""
+  "analiza1-pitanja.aux" 1785517464.51842 9921 bf56ebb6d89699bc4e29083885d34dcc "pdflatex"
+  "analiza1-pitanja.out" 1785517464.52042 13457 ae2d58beefb99e4f631395a0557d5f0c "pdflatex"
+  "analiza1-pitanja.tex" 1785517449.41392 138154 86b4df230d3f4ebe4a3c2a1643ac8ee2 ""
+  "analiza1-pitanja.toc" 1785517464.52042 5602 d12e37a58c96552ef7742d7ec301d517 "pdflatex"
+  "slike/1-5.png" 1785517379.93664 6984 7926b1e58166811cd5ba6647ae6f420f ""
   (generated)
   "analiza1-pitanja.aux"
   "analiza1-pitanja.log"
