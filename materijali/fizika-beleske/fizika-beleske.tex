@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{cmsrb}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[OT2,T1]{fontenc}
+\usepackage[serbian]{babel}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{mathtools,amsfonts}
+\usepackage{comment}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[autostyle=true]{csquotes} % Prilagođava navodnike jeziku iz babel-a
+\MakeOuterQuote{"}                    % Pretvara obične "..." sa tastature u „...”
+\usepackage{subcaption}
+\usepackage{bm}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{definition}{Definicija}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}{Lema}[section]
+\makeatletter
+\renewcommand{\ALG@name}{Algoritam}
+\numberwithin{algorithm}{section}
+\makeatother
+
+\DeclareMathOperator{\arccot}{arccot}
+
+% Definicija lokalnih matematičkih funkcija
+\renewcommand{\tan}{\operatorname{tg}}
+\renewcommand{\cot}{\operatorname{ctg}}
+\renewcommand{\arctan}{\operatorname{arctg}}
+\renewcommand{\arccot}{\operatorname{arcctg}}
+
+% Title
+\title{Fizika - Cheatsheet}
+\author{Kosta Čolović}
+\date{Poslednja izmena: \today}
+
+\begin{document}
+\maketitle
+\setcounter{page}{2}
+\tableofcontents
+\newpage
+
+\chapter{Kvantna mehanika}
+
+\end{document}
